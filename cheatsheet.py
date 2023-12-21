@@ -302,7 +302,6 @@ figure.show()
 fig = make_subplots(rows = 1,
                     cols = 2,
                     subplot_titles=("Distribución reproducciones", "Diferencia #artistas"))
-
 fig.add_trace(
     go.Scatter(x=df["columna1"], #! - En caso de que quieras meter otra grafica aquí, la sustituyes con go.Scatter/go.Bar/go.Line/go.Histogram/etc...
                y=df["columna2"], 
